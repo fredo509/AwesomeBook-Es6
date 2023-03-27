@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.check,
+.check * {
+  border: 2px solid black;
+}
+
+.book {
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.remove {
+  margin: auto 0 auto 0;
+  padding: 2px;
+  font-family: sans-serif;
+  font-weight: 100;
+  width: 70px;
+}
+
+.mx-auto {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.bookListCont {
+  border: 3px solid black;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.input-txt {
+  padding-left: 4.9px;
+}
+
+.html {
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+}
+
+.nav {
+  padding: 15px;
+}
+
+.nav-item {
+  margin: -10px;
+}
+
+.nav-link,
+.nav-link:link {
+  color: black;
+}
+
+#main {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+#addNew {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
