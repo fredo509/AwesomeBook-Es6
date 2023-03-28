@@ -77,7 +77,7 @@ In this second assignment we refactored objects to classes and refractor script 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://fredo509.github.io/AwesomeBook-Es6/)
+- [Live Demo Link](N/A)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
