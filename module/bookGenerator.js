@@ -40,17 +40,17 @@ export class MainBooks {
 	displayBooks() {
 		this.container.innerHTML = '';
 		this.collection.forEach((element, index) => {
-			const div = document.createElement('div');
-			div.className = 'book';
-			const textContent = document.createElement('p');
-			textContent.className = 'fs-bold m-0 input-txt';
-			textContent.textContent = `${element.title} by ${element.author}`;
-			const button = document.createElement('button');
-			button.textContent = 'remove';
-			button.className = 'remove';
-			button.setAttribute('data-id', `${index}`);
-			div.append(textContent, button);
-			this.container.appendChild(div);
+		const div = document.createElement('div');
+		div.className = 'book';
+		const textContent = document.createElement('p');
+		textContent.className = 'fs-bold m-0 input-txt';
+		textContent.textContent = `${element.title} by ${element.author}`;
+		const button = document.createElement('button');
+		button.textContent = 'remove';
+		button.className = 'remove';
+		button.setAttribute('data-id', `${index}`);
+		div.append(textContent, button);
+		this.container.appendChild(div);
 		});
 	}
 
