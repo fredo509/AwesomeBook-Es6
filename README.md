@@ -38,7 +38,7 @@
 
 **[Awsome Books]** is a practice about manipulating DOM and using objects to store data, also preserve data in local storage
 
-In this second assignment we refactored objects to classes. 
+In this second assignment we refactored objects to classes and refractor script into modules. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,6 +66,8 @@ In this second assignment we refactored objects to classes.
 
 - **[Local Storage to preserve data]**
 - **[DOM manipularion using JS]**
+- **[Display live date using JS]**
+- **[Fragement code in modules]**
 - **[Live demo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,7 +77,7 @@ In this second assignment we refactored objects to classes.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://benja27.github.io/awsomebooks/)
+- [Live Demo Link](https://fredo509.github.io/AwesomeBook-Es6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,8 +87,7 @@ In this second assignment we refactored objects to classes.
 
 To get a local copy up and running, follow these steps.
 
-https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-
+https://github.com/fredo509/AwesomeBook-Es6
 ### Prerequisites
 
 In order to run this project you need:
@@ -104,7 +105,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+https://github.com/fredo509/AwesomeBook-Es6
 
 <!--
 Example commands:
@@ -177,13 +178,6 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-👤 **Mariano Benjamin**
-
-- GitHub: [@githubhandle](https://github.com/benja27)
-- Twitter: [@twitterhandle](https://twitter.com/@rksne123)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
-
 👤 **Fredo st Fleur**
 
 - GitHub: [@fredo509](https://github.com/fredo509)
@@ -225,7 +219,7 @@ If you like this project like and subscribe
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to Microverse 
+I would like to thank's to Microverse 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,6 +230,6 @@ I would like to thank to Microverse
 
 ## 📝 License <a name="license" href="https://choosealicense.com/licenses/mit/">MIT</a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
