@@ -68,6 +68,16 @@
   color: black;
 }
 
+.Mydate {
+  position: fixed;
+  top: 60px;
+  text-align: right;
+  width: 100%;
+  padding-right: 15px;
+  margin-bottom: 20px;
+  font-size: small;
+}
+
 #main {
   overflow: hidden;
   height: 100vh;

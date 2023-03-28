@@ -1,22 +1,26 @@
-import { MainBooks } from "./module/bookGenerator.js";
+import MainBooks from './modules/bookGenerator.js';
+import showLocalStorage from './modules/displayLocal.js';
+import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 
 const submit = document.getElementById('form');
+const library = new MainBooks();
 
 submit.addEventListener('submit', (e) => {
   e.preventDefault();
- const library = new MainBooks();
   library.addBook();
   library.collection = JSON.parse(localStorage.getItem('collection'));
-  library.displayBooks();
-  // alert(123)
 });
 
+showLocalStorage(library);
 
-if (localStorage.getItem('collection')) {
-  library.collection = JSON.parse(localStorage.getItem('collection'));
-  library.displayBooks();
-}
+const updateLiveDate = () => {
+  const liveDate = document.querySelector('.Mydate');
+  const timeNow = DateTime.local().toLocaleString(DateTime.DATETIME_FULL);
 
+  liveDate.textContent = timeNow;
+};
+
+setInterval(updateLiveDate, 1000);
 
 const navLink = document.querySelectorAll('.nav-link');
 
