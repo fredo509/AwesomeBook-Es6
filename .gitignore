@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 node_modules
+=======
+#git igrnore
+node_modules/
+node_modules
+.vscode/
+
+
+>>>>>>> refractor-js

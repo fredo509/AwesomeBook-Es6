@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>AwesomeBook</title>
+  </head>
+
+  <body class="chec">
+    <header class="container-fluid">
+      <nav class="navbar align-self-end">
+        <h1 class="navbar-brand text-capitalize">AwesomeBook</h1>
+        <ul class="nav-bar nav">
+          <li class="nav-item"><a href="#main" class="nav-link">List |</a></li>
+          <li class="nav-item"><a href="#addNew" class="nav-link">Add New |</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="Mydate">
+    
+    </div>
+    <main id="main">
+      <section class="col-6 mx-auto py-5 mt-5">
+        <h1 class="text-center">All Awesome books</h1>
+        <article class="bookListCont">
+        </article>
+      </section>
+    </main>
+    <section id="addNew">
+      <form action="" id="form" class="flex d-flex flex-column mx-auto align-items-center pt-3 col-8">
+        <hr class="col-5">
+        <h4 class="text-center mx-auto">Add a new book</h4>
+        <input type="text" name="" class="w-100 m-3" id="title" placeholder="Title" required>
+        <input type="text" name="" class="w-100" id="author" placeholder="Author" required>
+        <input type="submit" value="Add" id="submit" class="p-1 px-2 align-self-end mt-3">
+      </form>
+    </section>
+    <section id="contact">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Do you have any questions or you just want to say "Hello" ? <br>
+          You can reach out to us !</p>
+        <ul>
+          <li>our e-mail :
+            <a href="mailto:fredostfleur23@gmail.com">Fredo</a>
+            <a href="mailto:rksnek@gmail.com">Benjamin</a>
+          </li>
+          <li> Our number :
+            <a href="tel: +525611815987">+5611815987</a>
+            <a href="tel: +5094443-8167">+5094443-8167</a>
+          </li>
+          <li> Our Address :
+            <a href="https://goo.gl/maps/snV2HvxZGQVPQqVM6">Apple street 456, pearl city, Mexico 5687455</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>AwesomeBook © 2023</p>
+    </footer>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'></script>
+    <script src="./index.js" type="module"></script>
+  </body>
+
+</html>
