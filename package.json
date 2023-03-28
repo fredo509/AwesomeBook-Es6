@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/fredo509/AwesomeBook-Es6/issues"
   },
-  "homepage": "https://github.com/fredo509/AwesomeBook-Es6#readme"
+  "homepage": "https://github.com/fredo509/AwesomeBook-Es6#readme",
+  "dependencies": {
+    "luxon": "^3.3.0"
+  }
 }
